@@ -1,9 +1,7 @@
 body {
     width: 1920px;
     margin: 0 auto;
-    box-sizing: border-box;
 }
-
 
 .header-wrp {
     width: 100%;
@@ -14,7 +12,7 @@ body {
 }
 
 .header-top {
-    padding: 40px 374px 0 374px;
+    padding: 40px 374px 285px 374px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,7 +21,7 @@ body {
 .logo {
     margin: 0;
     font-family: raleway;
-    width: 181px; 
+    width: 181px;
     color: #ffffff;
     text-decoration: none;
     display: flex;
@@ -52,20 +50,23 @@ body {
 }
 
 .menu {
-    margin-left: 100px;
+    margin-left: 170px;
 }
 
 .menu-list {
     display: block;
-    width: 637px;
     display: flex;
     justify-content: space-between;
-    margin: 0;
     padding: 0;
 }
 
 .menu-link {
     list-style-type: none;
+    margin-left: 30px;
+}
+
+.menu-link:nth-child(1) {
+    margin: 0;
 }
 
 .menu-link-a {
@@ -75,7 +76,7 @@ body {
     font-family: Montserrat;
     font-size: 14px;
     line-height: 1.2;
-    font-weight: 300;    
+    font-weight: 300;
 }
 
 .menu-link-a:hover {
@@ -86,9 +87,8 @@ body {
     color: #ffffff;
 }
 
-.menu-icon-wrp{
+.menu-icon-wrp {
     display: block;
-    width: 70px;
     display: flex;
     justify-content: space-between;
 }
@@ -106,11 +106,11 @@ body {
 }
 
 .cart-svg:hover {
-     fill: #998675;
+    fill: #998675;
 }
 
 .cart-svg:active {
-     fill: #998675;
+    fill: #998675;
 }
 
 .menu-icon-search {
@@ -128,9 +128,10 @@ input[type="search"] {
     outline: none;
     background-color: transparent;
     border: none;
-    
+    margin-left: 30px;
 }
 
+input[type="search"]:valid,
 input[type="search"]:focus {
     width: 100px;
     transition: width 1s ease-out;
@@ -138,12 +139,151 @@ input[type="search"]:focus {
     color: #ffffff;
     text-transform: capitalize;
     border-bottom: 1px solid #ffffff;
+    padding-right: 25px;
+}
+
+.header-item {
+    position: relative;
+    padding-bottom: 382px;
 }
 
 .header-item-karusel {
+    padding: 0 150px 0 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slider-arrow-left {
+    display: block;
+    width: 40px;
+    height: 73px;
+    position: relative;
+}
+
+.slider-arrow-left:after {
+    content: "";
+    display: inline-block;
+    width: 52px;
+    height: 52px;
+    border-top: 2px solid #d3c1ad;
+    border-right: 2px solid #d3c1ad;
+    transform: rotate(-135deg);
+    position: absolute;
+    top: 10px;
+    left: 11px;
+}
+
+.slider-arrow-left:hover:after {
+    border-top: 2px solid #ffffff;
+    border-right: 2px solid #ffffff;
+}
+
+.heder-item-slogan {
     color: #ffffff;
-    font-family: Raleway;
-    font-weight: 200;
-    font-size: 120px;
     text-align: center;
+    width: 589px;
+}
+
+.header-item-slogan-h2 {
+    font-family: Raleway;
+    font-size: 36px;
+    line-height: 1.2;
+    font-weight: 400;
+    margin: 0 0 14px 0;
+}
+
+.header-item-slogan-h1 {
+    font-family: Raleway;
+    font-size: 52px;
+    line-height: 1.2;
+    font-weight: 700;
+    margin: 0 0 19px 0;
+}
+
+.header-item-slogan-p {
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 200;
+    margin: 0 0 52px 0;
+}
+
+.btn {
+    margin: 0 auto;
+    display: flex;
+    width: 170px;
+    min-height: 53px;
+    text-decoration: none;
+    background-color: #998675;
+    border-radius: 3.0px;
+    text-transform: uppercase;
+    font-family: Raleway;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.header-btn-txt {
+    margin: auto;
+}
+
+.btn:hover {
+    background-color: #ffffff;
+    color: #998675;
+}
+
+.btn:active {
+    background-color: #998675;
+    color: #ffffff;
+}
+
+.slider-arrow-right {
+    display: block;
+    width: 40px;
+    height: 73px;
+    position: relative;
+}
+
+.slider-arrow-right:after {
+    content: "";
+    display: inline-block;
+    width: 52px;
+    height: 52px;
+    border-top: 2px solid #d3c1ad;
+    border-right: 2px solid #d3c1ad;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 10px;
+    left: -25px;
+}
+
+.slider-arrow-right:hover:after {
+    border-top: 2px solid #ffffff;
+    border-right: 2px solid #ffffff;
+}
+
+.header-pagination {
+    position: absolute;
+    width: 115px;
+    display: flex;
+    justify-content: space-between;
+    left: 50%;
+    transform: translate3d(-50%, 0, 0); 
+}
+
+.header-pagination-item {
+    display: block;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: #998675;
+    border: 2px solid transparent;
+}
+
+.header-pagination-item:hover {
+    background-color: transparent;
+    border: 2px solid #998675;
+    transform: scale(1.2);
 }
