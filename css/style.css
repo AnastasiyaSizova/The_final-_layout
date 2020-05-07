@@ -139,3 +139,11 @@ input[type="search"]:focus {
     text-transform: capitalize;
     border-bottom: 1px solid #ffffff;
 }
+
+.header-item-karusel {
+    color: #ffffff;
+    font-family: Raleway;
+    font-weight: 200;
+    font-size: 120px;
+    text-align: center;
+}
