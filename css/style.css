@@ -128,7 +128,7 @@ input[type="search"] {
     outline: none;
     background-color: transparent;
     border: none;
-    border-bottom: 1px solid #ffffff;
+    
 }
 
 input[type="search"]:focus {
@@ -137,3 +137,5 @@ input[type="search"]:focus {
     background-position: right;
     color: #ffffff;
     text-transform: capitalize;
+    border-bottom: 1px solid #ffffff;
+}
