@@ -9,6 +9,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    position: relative;
 }
 
 .header-top {
@@ -143,7 +144,6 @@ input[type="search"]:focus {
 }
 
 .header-item {
-    position: relative;
     padding-bottom: 382px;
 }
 
@@ -271,6 +271,7 @@ input[type="search"]:focus {
     justify-content: space-between;
     left: 50%;
     transform: translate3d(-50%, 0, 0); 
+    bottom: 42px;
 }
 
 .header-pagination-item {
