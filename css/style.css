@@ -822,8 +822,74 @@ video {
 
 .main-video-play-time {
     font-family: Montserrat;
-font-size: 14px;
-line-height: 24px;
-font-weight: 300;
-color: #c7b299;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #c7b299;
+}
+
+.main-excellent {
+    width: 100%;
+    height: 100vh;
+    padding-top: 195px;
+    background-color: #fbfaf8;
+    background-image: url(../img/iphone_in_hand.png);
+    background-repeat: no-repeat;
+    background-size: 432px 615px;
+    background-position: left 25%  top 20%; 
+}
+
+.main-excellent-wrp {
+    float: right;
+    display: inline;
+    height: 317px;
+    width: 950px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-excellent-h {
+    font-family: Raleway;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #555555;
+}
+
+.main-excellent-p {
+    width: 657px;
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 200;
+    color: #8c8c8c;
+    margin: 0;
+}
+
+.main-excellent-list {
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 200;
+    color: #8c8c8c;
+    margin: 0;
+}
+
+.main-excellent-list-txt:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    background-color: #c7b299;
+}
+
+.main-excellent-list-txt {
+    list-style-type: none;
+    padding-left: 33px;
+    position: relative;
 }
