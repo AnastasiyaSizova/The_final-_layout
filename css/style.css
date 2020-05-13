@@ -749,6 +749,7 @@ btn-waxon-aside:active {
 .main-video {
     display: flex;
     flex-direction: column;
+    position: relative;
 }
 
 video {
@@ -763,12 +764,15 @@ video {
     flex-direction: column;
     justify-content: space-between;
     width: 552px;
-    background-color: aqua;
+    height: 288px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate3d(-50%, -50%, 0);
    
 }
 
 .main-video-play-btn {
-    margin: 0 0 44px 0;
     display: flex;
     width: 100px;
     height: 100px;
@@ -791,8 +795,13 @@ video {
     fill: #ffffff;
 }
 
+.main-video-play-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .main-video-play-h {
-    margin: 0 0 29px 0;
+    margin: 0 0 14px 0;
     font-family: Raleway;
     font-size: 30px;
     line-height: 1.2;
@@ -801,7 +810,7 @@ video {
 }
 
 .main-video-play-p {
-    margin: 0 0 40px 0;
+    margin: 0;
     width: 552px;
     font-family: Montserrat;
     font-size: 16px;
