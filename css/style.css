@@ -33,6 +33,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    transition: color 0.5s ease;
 }
 
 .logo-svg {
@@ -85,6 +86,7 @@
     font-size: 14px;
     line-height: 1.2;
     font-weight: 300;
+    transition: color 0.5s ease;
 }
 
 .menu-link-a:hover {
@@ -111,6 +113,7 @@
 
 .cart-svg {
     fill: #ffffff;
+    transition: fill 0.5s ease;
 }
 
 .cart-svg:hover {
@@ -136,6 +139,7 @@
 
 .menu-icon-search-svg {
     fill: #ffffff;
+    transition: fill 0.5s ease;
 }
 
 .menu-icon-search_label:hover .menu-icon-search-svg{
@@ -229,6 +233,8 @@ input[type="search"]:focus {
     line-height: 23px;
     font-weight: 700;
     color: #ffffff;
+    transition: background-color 0.5s ease;
+    transition: color 0.7s ease;
 }
 
 .header-btn-txt {
@@ -321,6 +327,9 @@ input[type="search"]:focus {
     border-radius: 50%;
     background-color: #998675;
     border: 2px solid transparent;
+    transition: background-color 0.5s ease;
+    transition: border 0.5s ease;
+    transition: transform 0.5s ease;
 }
 
 .header-pagination-item:hover {
@@ -373,6 +382,7 @@ input[type="search"]:focus {
     display: block;
     fill: #555555;
     margin: 0 0 30px 0;
+    transition: fill 0.5s ease;
 }
 
 .main-waxom-head-item:hover .main-waxom-head-item-svg {
@@ -392,6 +402,7 @@ input[type="search"]:focus {
     font-weight: 500;
     color: #555555;
     text-align: center;
+    transition: color 0.5s ease;
 }
 
 .main-waxom-head-item-txt {
@@ -538,6 +549,8 @@ input[type="search"]:focus {
     font-size: 14px;
     line-height: 23px;
     font-weight: 700;
+    transition: background-color 0.5s ease;
+    transition: color 0.5s ease;
 }
 
 .txt-btn-waxon-aside {
@@ -605,6 +618,9 @@ input[type="search"]:focus {
     font-weight: 200;
     color: #8c8c8c;
     outline: none;
+    transition: background-color 0.5s ease;
+    transition: border 0.5s ease;
+    transition: color 0.5s ease;
 }
 
 .projects-btn-txt {
@@ -688,6 +704,7 @@ input[type="search"]:focus {
     left: 21px;
     border: 18px solid transparent;
     border-bottom: 14px solid #fbfaf8;
+    
 }
 
 .projects-article-txt-wrp {
@@ -766,7 +783,10 @@ input[type="search"]:focus {
     font-size: 14px;
     line-height: 23px;
     font-weight: 800;
-    color: #ffffff; 
+    color: #ffffff;
+    transition: background-color 0.5s ease;
+    transition: border 0.5s ease;
+    transition: color 0.5s ease;
 }
 
 .projects-btn-load-txt {
@@ -823,6 +843,7 @@ video {
 .main-video-play-svg {
     margin: auto;
     fill: #ffffff;
+    transition: fill 0.5s ease;
 }
 
 .main-video-play-svg:hover {
@@ -1007,6 +1028,7 @@ video {
 
 .main-satisfied-items-svg {
     fill: #c7b299;
+    transition: fill 0.5s ease;
 }
 
 .main-satisfied-items-nom {
@@ -1028,6 +1050,7 @@ video {
     color: #c7b299;
     text-align: center;
     margin: 0 0 30px 0;
+    transition: color 0.5s ease;
 }
 
 .main-recent {
@@ -1258,6 +1281,10 @@ video {
     margin-left: 0;
 }
 
+.main-partners-photo {
+    transition: filter 0.5s ease;
+}
+
 .main-partners-link:hover .main-partners-photo {
     filter: brightness(40%);
 }
@@ -1294,6 +1321,7 @@ video {
     font-weight: 300;
     color: #555555;
     margin: 30px 0 30px 0;
+    transition: color 0.5s ease;
 }
 
 .footer-waxom-item-read-link {
@@ -1305,6 +1333,7 @@ video {
     color: #ffffff;
     text-decoration: none;
     position: relative;
+    transition: color 0.5s ease;
 }
 
 .footer-waxom-item-read-link:after {
@@ -1315,6 +1344,7 @@ video {
     position: absolute;
     top: 5px;
     left: 90px;
+    transition: border-left 0.5s ease;
 }
 
 .footer-waxom-item-read-link:hover {
@@ -1341,6 +1371,7 @@ video {
     color: #ffffff;
     margin-bottom: 30px;
     margin-top: 19px;
+    transition: color 0.5s ease;
 }
 
 .footer-waxom-item-txt-wrp {
@@ -1375,6 +1406,7 @@ video {
     font-weight: 300;
     color: #363636;
     padding-top: 10px;
+    transition: color 0.5s ease;
 }
 
 .footer-waxom-txt,
@@ -1389,6 +1421,7 @@ video {
 .footer-waxom-txt {
     margin-bottom: 10px;
     margin-top: 0;
+    transition: color 0.5s ease;
 }
 
 .footer-waxom-txt-l{
@@ -1398,6 +1431,7 @@ video {
 .footer-waxom-link-bit {
     text-decoration: none;
     color: #959595;
+    transition: color 0.5s ease;
 }
 
 .footer-waxom-link-bit:hover {
@@ -1411,6 +1445,7 @@ video {
 .footer-waxom-network {
     text-decoration: none;
     color: #00bff3;
+    transition: color 0.5s ease;
 }
 
 .footer-waxom-network:hover {
@@ -1444,6 +1479,11 @@ video {
     margin-bottom: 9px;
 }
 
+.footer-waxom-item-photo {
+    display: block;
+    transition: filter 0.5s ease;
+}
+
 .footer-waxom-item-dribble-link:hover .footer-waxom-item-photo {
     filter: brightness(30%);
 }
@@ -1458,10 +1498,6 @@ video {
 
 .footer-waxom-item-dribble-link:nth-child(4) {
     margin-bottom: 0;
-}
-
-.footer-waxom-item-photo {
-    display: block;
 }
 
 .footer-copyright {
@@ -1505,22 +1541,15 @@ video {
 
 .span-white-color {
     color: #ffffff;
+    transition: color 0.5s ease;
 }
 
 .footer-waxom-copyright-link-a {
     text-decoration: none;
     color: #555555;
-    
+    transition: color 0.5s ease;
 }
 
-.footer-waxom-copyright-link + .footer-waxom-copyright-link:before {
-    content: "|";
-    font-size: 16px;
-    display: block;
-    position: absolute;
-    top: -3px;
-    left: -16px;
-}
 
 .footer-waxom-copyright-link-a:hover {
     color: #c7b299;
