@@ -1735,7 +1735,7 @@ video {
 @media (max-width: 576px) {
     .header-wrp {
         width: 100%;
-        min-height: 145px;
+        height: 145px;
         padding-left: 30px;
         padding-right: 30px;
     }
@@ -1838,18 +1838,24 @@ video {
         padding-top: 125px;
         background: #fff;
         list-style-type: none;
+        background-color: #555555;
         transform: translate(-100%, 0%);
         transform-origin: 0% 0%;
         transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-}
+    }
     .menu-input:checked ~ .menu-list {
         transform: scale(1.0, 1.0);
         opacity: 1;
-}
+        visibility: visible;
+    }
     .menu-link {
         padding: 10px 0;
         font-size: 30px;
-}
+    }
+    
+    .menu-link:nth-child(1) {
+        margin-left: 0;
+    }
     .header-item {
         display: none;
     }
