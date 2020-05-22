@@ -146,9 +146,10 @@ body {
 }
 
 .header-top {
-    width: 1170px;
+    width: 80%;
     margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -201,7 +202,7 @@ body {
 }
 
 .menu-link:nth-child(1) {
-    margin: 0 0 0 100px;
+    margin:0;
 }
 
 .menu-link:nth-child(8) {
@@ -325,7 +326,9 @@ input[type="search"]:focus {
 .heder-item-slogan {
     color: #ffffff;
     text-align: center;
-    width: 590px;
+    width: 50%;
+    max-width: 590px;
+    min-width: 430px;
     height: 261px;
     position: relative;
     z-index: 20;
@@ -478,24 +481,21 @@ input[type="search"]:focus {
 
 .main-waxom {
     width: 100%;
-    padding: 80px 0 0 0;
+    padding-top: 80px;
     display: flex;
-    flex-direction: column;
-}
-
-.main-waxom-head {
-    width: 1166px;
-    margin: 0 auto;
-    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
     justify-content: space-between;
 }
 
 .main-waxom-head-item {
+    display: block;
     width: 266px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     box-sizing: border-box;
+    margin-left: 33px;
 }
 
 .main-waxom-head-item:after {
@@ -584,7 +584,9 @@ input[type="search"]:focus {
 
 .main-waxom-body-p {
     display: block;
-    width: 757px;
+    width: 55%;
+    max-width: 757px;
+    min-width: 450px;
     text-align: center;
     display: block;
     font-family: Montserrat;
@@ -596,7 +598,9 @@ input[type="search"]:focus {
 }
 
 .main-waxom-body-wrp {
-    width: 1230px;
+    width: 80%;
+    min-width: 600px;
+    max-width: 1230px;
     display: flex;
     justify-content: center;
     position: relative;
@@ -644,7 +648,9 @@ input[type="search"]:focus {
 }
 
 .waxom-aside-wrp {
-    width: 1170px;
+    width: 80%;
+    min-width: 500px;
+    max-width: 1170px;
     margin: 0 auto;
     padding: 48px 0 48px 0;
     display: flex;
@@ -653,6 +659,7 @@ input[type="search"]:focus {
 }
 
 .waxom-aside-h {
+    min-width: 400px;
     font-family: Raleway;
     font-size: 28px;
     line-height: 1.2;
@@ -666,6 +673,7 @@ input[type="search"]:focus {
 }
 
 .waxom-aside-p {
+    min-width: 300px;
     font-family: Montserrat;
     font-size: 18px;
     line-height: 1.2;
@@ -727,7 +735,9 @@ input[type="search"]:focus {
 
 .projects-p {
     display: block;
-    width: 757px;
+    width: 55%;
+    max-width: 757px;
+    min-width: 400px;
     font-family: Montserrat;
     font-size: 16px;
     line-height: 28px;
@@ -738,7 +748,8 @@ input[type="search"]:focus {
 }
 
 .projects-btn-wrp {
-    width: 630px;
+    width: 50%;
+    max-width: 630px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -778,7 +789,8 @@ input[type="search"]:focus {
 }
 
 .projects-article-wrp {
-    width: 1170px;
+    width: 80%;
+    max-width: 1170px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -1054,7 +1066,9 @@ video {
     top: 20%;
     display: inline;
     height: 317px;
-    width: 657px;
+    width: 55%;
+    max-width: 657px;
+    min-width: 330px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -1069,7 +1083,9 @@ video {
 }
 
 .main-excellent-p {
-    width: 657px;
+    width: 55%;
+    max-width: 657px;
+    min-width: 330px;
     font-family: Montserrat;
     font-size: 16px;
     line-height: 28px;
@@ -1225,7 +1241,9 @@ video {
 }
 
 .main-recent-p {
-    width: 757px;
+    width: 55%;
+    max-width: 757px;
+    min-width: 300px;
     font-family: Montserrat;
     font-size: 16px;
     line-height: 28px;
@@ -1237,6 +1255,7 @@ video {
 
 .main-recent-items {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
@@ -1658,8 +1677,9 @@ video {
     background-color: #111111;
     padding: 45px 0 52px 0;
     display: flex;
+    flex-wrap: wrap;
     text-align: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .footer-waxom-copyright-list-left {
@@ -1667,8 +1687,7 @@ video {
     list-style-type: none;
     display: flex;
     text-align: center;
-    margin-right: 480px;
-    padding: 0;
+    padding-left: 90px;
     position: relative;
 }
 
@@ -1725,7 +1744,7 @@ video {
     margin: 0;
     list-style-type: none;
     display: flex;
-    padding: 0
+    padding-right: 90px;
 }
 
 .footer-waxom-copyright-link:nth-child(1) {
@@ -1820,7 +1839,6 @@ video {
         height: 0;
         visibility: hidden;
         margin: 0 auto;
-        width: 100%;
         flex-direction: column;
     }
     
@@ -1831,7 +1849,7 @@ video {
     
     .menu-list {
         position: absolute;
-        width: 400px;
+        width: 100%;
         height: 100vh;
         margin: -100px 0 0 -60px;
         padding: 50px;
@@ -1839,7 +1857,7 @@ video {
         background: #fff;
         list-style-type: none;
         background-color: #555555;
-        transform: translate(100%, 0%);
+        transform: translate(0%, 0%);
         transform-origin: 0% 0%;
         transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
     }
