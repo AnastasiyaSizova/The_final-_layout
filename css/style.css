@@ -1756,6 +1756,16 @@ video {
     margin-left: 0px;
 }
 
+@media (max-width: 915px) {
+    .menu-link {
+        margin: 0 0 0 10px;
+    }
+    
+    .header-item-slogan-p {
+        margin: 0 0 20px 0;
+    }
+}
+    
 @media (max-width: 576px) {
     .header-wrp {
         width: 100%;
