@@ -330,7 +330,7 @@ input[type="search"]:focus {
     text-align: center;
     width: 50%;
     max-width: 590px;
-    min-width: 430px;
+    min-width: 400px;
     height: 261px;
     position: relative;
     z-index: 20;
@@ -598,7 +598,7 @@ input[type="search"]:focus {
     display: block;
     width: 55%;
     max-width: 757px;
-    min-width: 450px;
+    min-width: 375px;
     text-align: center;
     display: block;
     font-family: Montserrat;
@@ -749,7 +749,7 @@ input[type="search"]:focus {
     display: block;
     width: 55%;
     max-width: 757px;
-    min-width: 400px;
+    min-width: 375px;
     font-family: Montserrat;
     font-size: 16px;
     line-height: 28px;
@@ -974,7 +974,6 @@ video {
     justify-content: space-between;
     width: 100%;
     max-width: 552px;
-    height: 288px;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -1025,16 +1024,17 @@ video {
 }
 
 .main-video-play-h {
-    margin: 0 0 14px 0;
+    margin: 40px 0 0px 0;
     font-family: Raleway;
     font-size: 30px;
     line-height: 1.2;
     font-weight: 400;
     color: #ffffff;
+    text-align: center;
 }
 
 .main-video-play-p {
-    margin: 0;
+    margin: 28px 0 0 0;
     width: 100%;
     max-width: 552px;
     font-family: Montserrat;
@@ -1046,6 +1046,7 @@ video {
 }
 
 .main-video-play-time {
+    margin: 38px 0 0 0;
     font-family: Montserrat;
     font-size: 14px;
     line-height: 24px;
@@ -1694,6 +1695,7 @@ video {
     display: flex;
     text-align: center;
     position: relative;
+    padding: 0;
 }
 
 .footer-waxom-copyright-link {
